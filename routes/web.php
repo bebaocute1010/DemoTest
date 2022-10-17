@@ -18,11 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/student', function () {
-    return view('manage');
+    return view('student_manage');
 })->name('student');
 
 Route::get('/edit', function () {
-    return view('edit');
+    return view('student_edit');
 });
 
 Route::get('/add', function () {
